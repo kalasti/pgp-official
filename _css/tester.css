@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Basic&family=Lato&family=Marcellus&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 5.7rem;
+}
+
+.topper {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.burger-menu > h1 {
+  font-size: 32px;
+  font-family: "Marcellus", serif;
+  color: #fff;
+  font-family: "Marcellus", sans-serif;
+}
+
+.burger-menu > h1 > span {
+  color: #fff;
+  font-family: "Marcellus", serif;
+}
+
+.greek_letters {
+  font-family: "Marcellus", serif;
+}
+
+.burger-menu {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.burger-menu #nav-bar {
+  display: none;
+}
+
+.burger-menu a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  display: block;
+}
+
+.burger-menu a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.burger-menu a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#active {
+  color: white;
+  text-decoration: none;
+}
